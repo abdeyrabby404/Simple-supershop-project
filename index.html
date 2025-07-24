@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Supershop</title>
+
+    <!-- Font CDN  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+    <!-- DaisyUI CDN  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Tailwind CDN  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+    <!-- font awesome  -->
+    <script src="https://kit.fontawesome.com/379d09de9a.js" crossorigin="anonymous"></script>
+
+    <!-- style tag for font  -->
+    <style>
+        .sora {
+            font-family: "Sora", sans-serif;
+        }
+    </style>
+
+    <!-- custom color  -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'primary-green': '#179800',
+                    }
+                }
+            }
+        }
+    </script>
+
+</head>
+
+<body class="sora">
+    <header class="md:container mx-auto">
+        <!-- Navbar section  -->
+        <div class="border-b border-green-600 pt-5">
+            <nav class="flex justify-between items-center">
+            <div class="navbar ">
+                <div class="navbar-start">
+                    <div class="dropdown">
+
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                            <li><a>Product</a></li>
+                            <li><a>Services</a></li>
+                            <li><a>Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <img class="w-28" src="assets/logo-header.png" alt="">
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Product</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="lg:navbar-end lg:space-x-2">
+                    <i class="fa-solid fa-magnifying-glass hidden lg:flex"></i>
+                    <i class="fa-solid fa-cart-shopping hidden lg:flex"></i>
+                    <a class="btn bg-white border-2 border-[#179800] hover:bg-primary-green  hidden lg:flex">Login</a>
+                    <a class="btn bg-primary-green text-white hidden lg:flex">Register</a>
+
+                </div>
+
+            </div>
+            <i class="fa-solid fa-bars text-green-600  text-4xl text-right pr-6 lg:hidden"></i>
+        </nav>
+        </div>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
