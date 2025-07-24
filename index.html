@@ -46,42 +46,59 @@
 </head>
 
 <body class="sora">
-    <header class="md:container mx-auto">
+    <header class="bg-gradient-to-t from-green-400 to-[#FFFFFF]">
         <!-- Navbar section  -->
-        <div class="border-b border-green-600 pt-5">
+        <div class="border-b border-green-600 pt-5 md:container mx-auto">
             <nav class="flex justify-between items-center">
-            <div class="navbar ">
-                <div class="navbar-start">
-                    <div class="dropdown">
+                <div class="navbar ">
+                    <div class="navbar-start">
+                        <div class="dropdown">
 
-                        <ul tabindex="0"
-                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                            <ul tabindex="0"
+                                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                                <li><a>Product</a></li>
+                                <li><a>Services</a></li>
+                                <li><a>Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <img class="w-28" src="assets/logo-header.png" alt="">
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1">
                             <li><a>Product</a></li>
                             <li><a>Services</a></li>
                             <li><a>Contact Us</a></li>
                         </ul>
                     </div>
-                    <img class="w-28" src="assets/logo-header.png" alt="">
-                </div>
-                <div class="navbar-center hidden lg:flex">
-                    <ul class="menu menu-horizontal px-1">
-                        <li><a>Product</a></li>
-                        <li><a>Services</a></li>
-                        <li><a>Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="lg:navbar-end lg:space-x-2">
-                    <i class="fa-solid fa-magnifying-glass hidden lg:flex"></i>
-                    <i class="fa-solid fa-cart-shopping hidden lg:flex"></i>
-                    <a class="btn bg-white border-2 border-[#179800] hover:bg-primary-green  hidden lg:flex">Login</a>
-                    <a class="btn bg-primary-green text-white hidden lg:flex">Register</a>
+                    <div class="lg:navbar-end lg:space-x-2">
+                        <i class="fa-solid fa-magnifying-glass hidden lg:flex"></i>
+                        <i class="fa-solid fa-cart-shopping hidden lg:flex"></i>
+                        <a
+                            class="btn bg-white border-2 border-[#179800] hover:bg-primary-green  hidden lg:flex">Login</a>
+                        <a class="btn bg-primary-green text-white hidden lg:flex">Register</a>
+
+                    </div>
 
                 </div>
-
-            </div>
-            <i class="fa-solid fa-bars text-green-600  text-4xl text-right pr-6 lg:hidden"></i>
-        </nav>
+                <i class="fa-solid fa-bars text-green-600  text-4xl text-right pr-6 lg:hidden"></i>
+            </nav>
         </div>
+        <!-- hero section  -->
+        <section class="my-24 md:container mx-auto">
+            <div>
+                <div class="text-center space-y-5">
+                    <h1 class="text-3xl font-bold lg:text-5xl">Freshness <span class="text-green-600">You Can <br>
+                        Count</span> On, Prices You’ll Love!</h1>
+                    <p class="text-gray-500">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br>staples, we’ve got
+                        you covered every day!</p>
+                </div>
+                <div class="flex justify-center items-center">
+                    <img class="text-center" src="assets/hero-vegetables.png" alt="">
+                </div>
+            </div>
+        </section>
+
+
     </header>
     <main>
 
